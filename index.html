@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="eng">
+  <head>
+    <meta charset="UTF-8">
+    <title>First Tusk</title>
+  </head>
+  <body>
+    <h1 id="anchor">Якорь('экзампл')</h1>
+    <br>
+    <ol>
+      <li>
+        <a href="https://discord.com">Discord</a>
+      </li>
+      <li>
+        <a href="https://www.w3schools.com/">W3School тут </a>
+      </li>
+      <li>
+        <a href="ftp://systemadmin.ru/hranilische/f.txt">Без авторизации</a>
+      </li>
+      <li>
+        <a href="ftp://test:password@systemadmin.ru/hranilische/f.txt">С авторизацией</a>
+      </li>
+      <li>
+        <a href="https://test.html#bottom">Ссылка на часть страницы(с якорем)</a>
+      </li>
+      <li>
+        <a href="#top">Ссылка на начало страницы</a>
+      </li>
+      <li>
+        <a href="https://github.com/?branch=master&repo=chat">Ссылка с двумя гет параметрами</a>
+      </li>
+      <li>
+        <h2>Nav Menu</h2>
+        <a href="#anchor">Начало </a>
+        <a href="#">Главная</a>
+      </li>
+      <li>
+        <a>Ссылка без href</a>
+      </li>
+      <li>
+        <a href="">Ссылка с пустым href</a>
+      </li>
+      <li>
+        <a href="https://test.com" rel="nofollow">Ссылка  вот nofollow
+        </a>
+      </li>
+      <li>
+        <a href="https://test.com" rel="noindex">Ссылка вот noindex
+        </a>
+      </li>
+      <li>
+        <h2>Пример абзаца для контекстной ссылки</h2>
+        <p>
+          <a href="https://warhammerfantasy.fandom.com/wiki/Nagash">Lore of Nagash<a>  In that dread desert, beneath the moon's pale gaze, dead men walk. They haunt the shifting dunes of the breathless, windless night, brandish weapons of bronze in mocking challenge and bitter resentment of the life they no longer possess. And sometimes, in ghastly dry voices, like the rustling of sun-baked reeds, they whisper the one word they remember from life. The name of the one who cursed them to their existence, more than death but less than life. They whisper the name, Nagash..
+        </p>
+      </li>
+      <li>
+        <a href="https://lingualeo.com/ru">
+        <img src="233.jpg" width="500" height="500" alt="flowers">
+        </a>
+      </li>
+      <li>
+        <img src="image.jpg" width="800" height="800" usemap="#navigation" alt="mapa">
+        <map name="navigation">
+          <area shape="circle"
+          coords="400,400,200"
+          href="https://www.php.net/manual/ru/book.json.php"
+          alt="circle">
+          <area shape="rekt"
+          coords="0,0,200,200"
+          href="https://https://info-comp.ru/oracle"
+          alt="rectangle">
+        </map>
+      </li>
+      <li>
+        <a href="demo.html">Относительная ссылка на файл в том же каталоге</a>
+      </li>
+      <li>
+        <a href="about/contacts.html">Относительная ссылка на файл в каталоге about</a>
+      </li>
+      <li>
+        <a href="./Веб-разработка(черновик).pdf">Относительная ссылка на файл в каталоге, выше нынешнего na 1</a>
+      </li>
+      <li>
+        <a href="././random.html">Относит. ссылка на файл двумя каталогами выше</a>
+      </li>
+      <li>
+        <a href="/">Сокр. ссылка на главную</a>
+      </li>
+      <li>
+        <a href="/form.html">Сокр. на внутреннюю</a>
+      </li>
+    </ol>
+    <br>
+    <form action="#" method="post">
+      <h2>Имя:</h2>
+      <input type="text"
+        name="fill-name"
+        value="Name:"><br>
+      <h2>E-mail:</h2>
+      <input type="mail"
+        name="mail"
+        value="mail@mail.ru"><br>
+      <h2>Date:</h2>
+      <input type="date"
+        name="date"
+        value="2020-10-12"><br>
+      <h2>Gender:</h2>
+      <input type="ra-dio"
+        checked="checked"
+        name="gender"
+        value="Мужской" />Мужской<br>
+      <input type="ra-dio"
+        name="gender"
+        value="Женский" />Женский<br>
+      <h2>Количество конечностей:</h2>
+      <input type="radio" checked="checked"
+        name="count" value="Четыре" />Четыре<br>
+      <input type="radio"
+        name="count" value="Пять" />Пять<br>
+      <h2>Super Powers: </h2>
+      <select name="superpowers"
+        multiple="multiple">
+        <option value="Значение1">Всезнание</option>
+        <option value="Значение2" selected="selected">Призрачность</option>
+        <option value="Значение3" selected="selected">Путешествие во времени</option>
+      </select>
+      <br>
+      <h2>Биография</h2>
+      <textarea name="textarea"></textarea>
+      <br>
+      <input type="checkbox"
+        name="check">С контактом ознакомлен/а<br>
+      <input type="submit" value="Отправить">
+    </form>
+  </body>
+</html>
