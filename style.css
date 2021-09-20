@@ -15,10 +15,11 @@ header {
     color:#8B0000;
     font-size: 400%;
 }
-div#logo{
+#logo{
     width: 100px;
     height: 100px;
-    background: url('http://https://acegif.com/ru/gifki-drakonov/');top left no-repeat;}
+    background: url(524.jpg);
+    float:left ;}
 
 
 }
