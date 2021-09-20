@@ -18,7 +18,7 @@ header {
 div#logo{
     width: 100px;
     height: 100px;
-    background: url('http://https://github.com/YagovkinaA/darova/blob/main/bruh.jpg');top left no-repeat;}
+    background: url(img/bruh.jpg);top left no-repeat;}
 
 
 }
