@@ -2,10 +2,26 @@
 <html lang="eng">
   <head>
     <meta charset="UTF-8">
-    <title>First Tusk</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Updated First Tusk</title>
   </head>
   <body>
-    <h1 id="anchor">Якорь('экзампл')</h1>
+    <header>
+    <div class="wrapper">
+			<div id="logo"></div>
+			<div id="siteName">
+				<p class="text_header"> RENKAI</p>
+			</div>
+    </div>
+  </header>
+  <nav>
+      <ul class="menu-main">
+        <li><a href="#yakor" class="current">Домашняя</a></li>
+        <li><a href="#num">Ссылки</a></li>
+        <li><a href="#forma">Форма</a></li>
+      </ul>
+   </nav>
+   <div class="border">
     <br>
     <ol>
       <li>
@@ -55,12 +71,13 @@
         </p>
       </li>
       <li>
-        <a href="https://lingualeo.com/ru">
+                <p id="num">
+                          <a href="https://lingualeo.com/ru"></a></p>
         <img src="233.jpg" width="500" height="500" alt="flowers">
         </a>
       </li>
       <li>
-        <img src="image.jpg" width="800" height="800" usemap="#navigation" alt="mapa">
+        <img src="image.jpg" width="400" height="400" usemap="#navigation" alt="mapa">
         <map name="navigation">
           <area shape="circle"
           coords="400,400,200"
@@ -91,7 +108,42 @@
         <a href="/form.html">Сокр. на внутреннюю</a>
       </li>
     </ol>
+  </div>
+    <h1>Таблица</h1>
+  <table>
+    <tr>
+     <th>Заголовок 1</th>
+     <th>Заголовок 2</th>
+     <th>Заколовок 3</th>
+    </tr>
+    <tr>
+     <td>¯\_(ツ)_/¯</td>
+     <td>о_О</td>
+     <td>\(★ω★)/</td>
+   </tr>
+   <tr>
+       <td>(」°ロ°)」</td>
+     <td colspan="2">(＠＾◡＾)</td>
+
+   </tr>
+   <tr>
+    <td>(￢_￢;)</td>
+      <td rowspan="2">(＞ｍ＜)</td>
+    <td>(＃￣ω￣)</td>
+
+   </tr>
+   <tr>
+    <td>(；⌣̀_⌣́)</td>
+    <td>(・人・) </td>
+   </tr>
+   <tr>
+     <td>〜(＞＜)〜</td>
+    <td>ლ(ಠ_ಠ ლ)</td>
+    <td>;-;</td>
+   </tr>
+  </table>
     <br>
+    <h1 id="forma">Пример формы HTML</h1>
     <form action="#" method="post">
       <h2>Имя:</h2>
       <input type="text"
@@ -104,15 +156,15 @@
       <h2>Date:</h2>
       <input type="date"
         name="date"
-        value="2020-10-12"><br>
+        value="2000-08-15"><br>
       <h2>Gender:</h2>
-      <input type="ra-dio"
+      <input type="radio"
         checked="checked"
-        name="gender"
-        value="Мужской" />Мужской<br>
-      <input type="ra-dio"
-        name="gender"
-        value="Женский" />Женский<br>
+        name="gender1"
+      name ="count"   value="M" />Мужской<br>
+      <input type="radio"
+        name="gender2"
+name ="count" value="W" />Женский<br>
       <h2>Количество конечностей:</h2>
       <input type="radio" checked="checked"
         name="count" value="Четыре" />Четыре<br>
@@ -132,6 +184,12 @@
       <input type="checkbox"
         name="check">С контактом ознакомлен/а<br>
       <input type="submit" value="Отправить">
-    </form>
-  </body>
+          </form>
+          </body>
+          <div id="footer">
+ <p class="footer_text">
+   &copy; Arina Yagovkina 2021
+ </p>
+</div>
+
 </html>
