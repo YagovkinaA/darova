@@ -2,35 +2,37 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <link rel="stylesheet" href="style.css">
+    <meta name="viewport"
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Saim-Hann</title>
   </head>
-  <body>
+  <body class="osnova">
     <header>
     <div class="wrapper">
-			<div id="logo"></div>
-			<div id="siteName">
-				<p class="text_header"> WELCOME to SAIM-HANN</p>
-			</div>
+      <div id="logo"></div>
+
+       <div id="siteName">
+        <p class="text_header"> WELCOME to SAIM-HANN</p>
+      </div>
     </div>
   </header>
+   <div class="content">
   <nav>
        <ul class="menu-main">
-         <li><a href="#anchor" class="current">Главная</a></li>
+         <li><a href="#anchor" >Главная</a></li>
          <li><a href="#num">Ссылки</a></li>
          <li><a href="#form">Форма</a></li>
        </ul>
     </nav>
-    <div class="border">
-    <h1 id="yakor">Ссылки</h1>
- 	      <div class="block_ss">
-  <div class="top_bot">
-  <div class="ss">
+    </div>
+    <div class="block_ss">
+<div class="top_bot">
+    <div class="ss">
   <ol class="text_content">
   <li>
-    <a href="https://discord.com">Discord</a>
+    <a href="http://discord.com">Discord</a>
   </li>
   <li>
     <a href="https://www.w3schools.com/">W3School here </a>
@@ -53,7 +55,7 @@
      <li><a href="https://example.com" rel="noindex">Ссылка, где запрещена индексация</a></li>
      <li>
         <p id="num">
-          <a href="https://warhammer40k.fandom.com/ru/wiki/Сейм-Ханн">Путь просвещения</a>Сейм-Ханн (англ. Saim-Hann), «Поиск Просвещения» — мир-корабль эльдар.
+          <a href="https://warhammer40k.fandom.com/ru/wiki/Сейм-Ханн">Путь просвещения</a>Сейм-Ханн (англ. Saim-Hann), «Поиск Просвещения» — мир-корабль эльдар. Дикое войско обрушивается на своих врагов размытым пятном из алых ударных кораблей, наездники и пилоты которых выкрикивают боевые кличи, уносимые бушующим ветром.
         </p>
      </li>
        <li><a href="http://example.com"><img src="12345.jpg" width="300" height="300" alt="Ссылка картинка"></a>
@@ -61,7 +63,7 @@
                  <img src="54321.jpg" width="300" height="300" usemap="#Navigation" alt="навигация">
                  <map name="Navigation">
                    <area shape="circle" coords="200,75,50" href="https://github.com" alt="Картинка с кругом">
-                   <area shape="90ugolnik" coords="25,25,125,125" href="http://htmlbook.ru" alt="Картинка с прямоугольником">
+                   <area shape="rect" coords="25,25,125,125" href="http://htmlbook.ru" alt="Картинка с прямоугольником">
                  </map>
               </li>
               <li><a href="index.html">Относительная на страницу в текущем каталоге</a></li>
@@ -71,13 +73,13 @@
       <li><a href="/">Сокращенная на главную</a></li>
       <li><a href=”/about”>Сокращенная ссылку на внутреннюю</a> </li>
       </ol>
-      </div>
- </div>
+    </div>
 </div>
-	    
+</div>
+</div>
+      <div class="block_tabl">
+         <div class="top_bot">
       <h1>Таблица</h1>
-	    <div class="block_tabl">
-  <div class="top_bot">
     <table>
       <tr>
        <th>Эмоции до</th>
@@ -109,82 +111,81 @@
       <td>;-;</td>
      </tr>
     </table>
-	   </div>
+  </div>
 </div>
-	    <div class="block_form" id="form">
-  <div class="top_bot">
-      <h1 id="form">Пример формы HTML</h1>
-      <form action="/" method="POST">
 
-           <label>
-             Введите Ваше имя:
-             <br/>
-             <input name="field-name-1"
-               value=" "/>
-           </label>
-        <br/>
+<div class="block_form" id="forma">
+<div class="top_bot">
+    <form action="/" method="POST">
 
-           <label>
-             Введите Ваш email:
-             <br/>
-             <input name="field-email"
-               value=""
-               type="email"/>
-           </label>
+         <label>
+           Введите Ваше имя:
            <br/>
-
-           <label>
-             Введите Вашу дату рождения:
-             <br/>
-             <input name="field-date"
-               value="2000-01-01"
-               type="date"/>
-           </label>
-           <br/>
-
-           Количество конечностей:<br/>
-           <label><input type="radio" checked="checked" name="radio-group-1" value="Значение1" />1</label>
-           <label><input type="radio" name="radio-group-1" value="Значение2"/>2</label>
-           <label><input type="radio" name="radio-group-1" value="Значение2"/>3</label>
-           <label><input type="radio" name="radio-group-1" value="Значение2"/>4</label>
-           <br/>
-
-           Пол:<br/>
-           <label><input type="radio" checked="checked" name="radio-group-2" value="Значение1" />Мужской</label>
-           <label><input type="radio" name="radio-group-2" value="Значение2"/>Женский</label>
-           <br/>
-
-           <label>
-             Сверхспособности:<br/>
-             <select name="field-name-4[]" multiple="multiple">
-               <option value="Значение1">Бессмертие</option>
-               <option value="Значение2" selected="selected">Призрачность</option>
-               <option value="Значение3" selected="selected">Контроль времени</option>
-             </select>
-           </label><br/>
-
-           <label>
-             Биография:<br />
-             <textarea name="field-name-2"></textarea>
-           </label><br/>
-
-           <label>
-             С контрактом ознакомлен (а):<input type="checkbox" checked="checked" name="check-1"/>
-           </label>
-           <br/>
-
-           <label>
-          Я согласен(на) продать душу:
-             <input type="submit" value="Отправить" />
+           <input name="field-name-1"
+             value=" "/>
          </label>
-         </form>
-</div>
-	</div>
- <div id="footer">
-<p class="footer_text">
-&copy; Arina Yagovkina 2021
-</p>
-</div>
+      <br/>
+
+         <label>
+           Введите Ваш email:
+           <br/>
+           <input name="field-email"
+             value=""
+             type="email"/>
+         </label>
+         <br/>
+
+         <label>
+           Введите Вашу дату рождения:
+           <br/>
+           <input name="field-date"
+             value="2000-01-01"
+             type="date"/>
+         </label>
+         <br/>
+
+         Количество конечностей:<br/>
+         <label><input type="radio" checked="checked" name="radio-group-1" value="Значение1" />1</label>
+         <label><input type="radio" name="radio-group-1" value="Значение2"/>2</label>
+         <label><input type="radio" name="radio-group-1" value="Значение2"/>3</label>
+         <label><input type="radio" name="radio-group-1" value="Значение2"/>4</label>
+         <br/>
+
+         Пол:<br/>
+         <label><input type="radio" checked="checked" name="radio-group-2" value="Значение1" />Мужской</label>
+         <label><input type="radio" name="radio-group-2" value="Значение2"/>Женский</label>
+         <br/>
+
+         <label>
+           Сверхспособности:<br/>
+           <select name="field-name-4[]" multiple="multiple">
+             <option value="Значение1">Бессмертие</option>
+             <option value="Значение2" selected="selected">Призрачность</option>
+             <option value="Значение3" selected="selected">Контроль времени</option>
+           </select>
+         </label><br/>
+
+         <label>
+           Биография:<br />
+           <textarea name="field-name-2"></textarea>
+         </label><br/>
+
+         <label>
+           С контрактом ознакомлен (а):<input type="checkbox" checked="checked" name="check-1"/>
+         </label>
+         <br/>
+
+         <label>
+        Я согласен(на) продать душу:
+           <input type="submit" value="Отправить" />
+       </label>
+       </form>
+  </div>
+  <div id="footer">
+  <p class="footer_text">
+  &copy; Arina Yagovkina 2021
+  </p>
+  </div>
 
   </body>
-</html>
+  </html>
