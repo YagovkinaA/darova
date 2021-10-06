@@ -252,7 +252,11 @@ table tr:nth-child(even)
     }
   .menu-main a:hover:after, .menu-main .current:after {right: 0;
 }
-  @media (max-width: 550px) {
+  @media (min-width: 280px) and (max-width: 426px){
+    #navigation .col-md-4 {
+        text-align: left;
+        font-size: 35px;
+    }
   .menu-main {padding-top: 0;}
   .menu-main li {display: block;}
   .menu-main li:after {content: none;}
@@ -261,7 +265,7 @@ table tr:nth-child(even)
     margin: 0 30px;
   }
   }
-  @media screen and (min-width: 426px) {
+{
     body
     {
     background: url(back.jpg);
@@ -303,6 +307,105 @@ table tr:nth-child(even)
         order:4;
     }
   }
+@media (min-width: 1000px){
+    nav{
+        padding: 0px 30px 5px;
+    }
+    header {
+        font-size: 50px;
+    }
+    #navigation .col-md-4 {
+        text-align: center;
+        font-size: 35px;
+    }
+}
+
+header {
+    height: 150px;
+}
+#wrapper { 
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0px auto;
+    
+}
+#wrapper p {
+    font-family: Courier, monospace;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 4px;
+}
+
+#menu_main {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 0 5px;
+}
+
+#menu_main ul li {
+    padding: 0px 50px 5px;
+    font-size: 40px;
+}
+#menu_main nav ul {
+    list-style: none;
+}
+body {
+    font-family: Courier, monospace;
+    font-size: 20px;
+    color: rgb(92, 85, 85);
+    background-image: url(fon.jpg);
+    background-attachment: fixed;
+    font-weight: bold;
+}
+#ss {
+    width: 955px;
+    color: rgb(92, 85, 85);
+    margin: 20px auto;
+    padding: 0px 5px;
+}
+#ss img{
+    width: 100px;
+    height: 100px;
+}
+.table {
+    padding: 0px 5px 5px;
+}
+.form {
+    margin-bottom: 30px;
+    margin-top: 30px;
+    padding: 0px 5px 5px;
+}
+footer {
+    margin-bottom: 30px;
+    margin-top: 30px;
+    padding: 0px 5px 5px;
+}
+.form, .table, #navigation {
+    width: 955px;
+    margin-left: auto;
+    margin-right: auto;
+}
+a{
+    text-decoration: none;
+    color: rgb(92, 85, 85);
+    transition: text-decoration 0,5s ease-in;
+}
+a:hover{
+    text-decoration: underline;
+}
+.nech td, th{
+    color: white;
+    background-color: grey;
+}
+header, #navigation, #ss, .table, .form, footer{
+    background-color: rgb(254, 214, 188);
+    border-width: thick;
+    border-style: double;
+    border-color: grey;
+    border-image: initial;
+}
 /*.border{
     border: 5px dashed rgb(255, 0, 0);
      background: rgb(249, 249, 249);
